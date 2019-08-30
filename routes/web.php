@@ -11,11 +11,11 @@
 |
 */
 
-/*
+
 Route::get('/', function () {
     return view('welcome');
 });
-*/
+//This is welcome route
 Auth::routes();
 
 Route::get('/','MainController@index');
