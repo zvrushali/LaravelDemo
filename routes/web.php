@@ -15,7 +15,7 @@
 Route::get('/', function () {
     return view('welcome');
 });
-//This is welcome route
+//This is welcome route d	09:37 AMfjjdrf duhf
 Auth::routes();
 
 Route::get('/','MainController@index');
